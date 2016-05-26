@@ -43,11 +43,11 @@ KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 TARGET_GCC_VERSION_EXP := 5.3-uber
 
 #Opts
-CLANG_O3 := true
+CLANG_O3 := false
 STRICT_ALIASING := false
-KRAIT_TUNINGS := true
+KRAIT_TUNINGS := false
 GRAPHITE_OPTS := false
-ENABLE_GCCONLY := true
+ENABLE_GCCONLY := false
 
 # Shader cache config options
 # Maximum size of the  GLES Shaders that can be cached for reuse.
